@@ -1,0 +1,31 @@
+# Nmap 7.98 scan initiated as: nmap -sS 192.168.x.0/24
+
+Nmap scan report for Router (192.168.x.1)
+Host is up.
+Not shown: 994 closed tcp ports
+
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap scan report for Android Device (192.168.x.187)
+Host is up.
+All 1000 scanned ports are closed.
+
+Nmap scan report for Windows PC (192.168.x.154)
+Host is up.
+Not shown: 994 closed tcp ports
+
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3389/tcp open  ms-wbt-server
+
+# Nmap done -- 256 IP addresses (3 hosts up) scanned
